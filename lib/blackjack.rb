@@ -61,10 +61,18 @@ end
 def runner
   
   number = 0
+<<<<<<< HEAD
   until number > 21
     welcome
     number = initial_round
     number = hit?(number)
+=======
+  while number < 21
+    binding.pry
+    welcome
+    number = initial_round
+    hit?(number)
+>>>>>>> 1936e4ee5b9b5d7672be315c448e92b2769d3097
     display_card_total(number)
   end 
   end_game(number)
