@@ -61,7 +61,6 @@ end
 def runner
   
   number = 0
-<<<<<<< HEAD
   until number > 21
     welcome
     number = initial_round
